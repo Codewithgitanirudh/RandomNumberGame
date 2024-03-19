@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#box {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(160, 143, 143);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 {
+    width: 80%;
+    height: 80%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#panel {
+    width: 100%;
+    padding: 0px 25%;
+    height: 100px;
+    background-color: rgb(101, 78, 78);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+#elem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h2 {
+    font-size: 17px;
+    color: rgba(153, 186, 143, 0.926);
+}
+
+.box2 {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: brown;
+    padding: 10px 20px;
+}
+
+#panel2 {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.bubble {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(101, 78, 78);
+}
+
+.bubble:hover {
+    background-color: rgb(149, 120, 120);
+}
